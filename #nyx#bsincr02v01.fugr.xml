@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BS IN CR Function Group V01</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/NYX/LBSINCR02V01TOP</SOBJ_NAME>
+    <SOBJ_NAME>/NYX/SAPLBSINCR02V01</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/NYX/BS_IN_CR_GET_TOC_V01</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>BS IN CR Funtion Module: Get TOC</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_REQUESTS</PARAMETER>
+       <TYP>/NYX/BS_IN_CR_TT_01_V01</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_REQUESTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BS IN CR Table Type V01: Transport Request</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/NYX/BS_IN_CR_SENDEMAIL_V01</FUNCNAME>
+     <SHORT_TEXT>BA IN XX Function Group V01: Send Email</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_KEY_VALUES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/NYX/SC_MA_KEY_VAL_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BODY_FINAL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SOLI_TAB</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_SUBJECT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/NYX/SC_MA_02</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLE_D</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_KEY_VALUES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>neylux service connector: Table type for key values</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BODY_FINAL</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_SUBJECT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SUCCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

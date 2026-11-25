@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/NYX/BS_IN_CR_STEP_V01</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000064</LENG>
+    <OUTPUTLEN>000064</OUTPUTLEN>
+    <LOWERCASE>X</LOWERCASE>
+    <ENTITYTAB>/NYX/BSINCR05V01</ENTITYTAB>
+    <DDTEXT>BS IN CR Domain V01: Possible Next Step</DDTEXT>
+   </DD01V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
