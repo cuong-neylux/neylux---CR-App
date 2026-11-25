@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel","sap/m/MessageToast","./ObjectPageExt.controller"],function(e,i,n){"use strict";return e.extend("NYX.bsincrv01.ext.controller.Timeline",{onInit:function(){this._timeline=this.byId(+
+"idTimeline")}})});                                                                                                                                                                                                                                            

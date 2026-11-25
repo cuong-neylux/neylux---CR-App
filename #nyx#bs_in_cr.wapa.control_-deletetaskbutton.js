@@ -1,0 +1,1 @@
+sap.ui.define(["sap/m/Button"],function(e){"use strict";return e.extend("NYX.bsincrv01.control.DeleteTaskButton",{metadata:{dnd:{droppable:true}},renderer:{}})});                                                                                             

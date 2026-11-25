@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/NYX/BS_IN_CR_04_S_V01</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>BS IN CR Structure 04 V01: User</DDTEXT>
+    <EXCLASS>1</EXCLASS>
+    <WRONGCL>X</WRONGCL>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>QISRSUSER_DATA</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Internal Service Request: User Data</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ROLE_NAME</FIELDNAME>
+     <ROLLNAME>AGR_NAME</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>IMAGE_URL</FIELDNAME>
+     <ROLLNAME>/IWWRK/RT_GUI_LINK_URL</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
